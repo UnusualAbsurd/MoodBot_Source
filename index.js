@@ -20,7 +20,7 @@ ap.on('posted', () => {
 
 const Topgg = require('@top-gg/sdk')
 
-const webhook = new Topgg.Webhook('Jaden06102007')
+const webhook = new Topgg.Webhook('')
 
     app.post('/dblwebhook', webhook.listener(async(vote) => {
          hook.send(`<@${vote.user}> , **has voted for ${client.user.username}!**💗`)
